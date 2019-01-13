@@ -1,0 +1,3 @@
+rootProject.name = 'log4j-sns-play'
+
+include 'log4j-sns', 'test-logging-app'

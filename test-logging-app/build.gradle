@@ -1,0 +1,22 @@
+plugins {
+    id 'java'
+    id 'maven'
+}
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compile project(':log4j-sns')
+}
+
+group = 'uk.co.optimisticpanda'
+version = '0.0.1-SNAPSHOT'
+description = 'test-app'
+sourceCompatibility = '1.8'
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}

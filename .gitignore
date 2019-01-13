@@ -11,3 +11,6 @@
 /bin
 /log.roo
 /*.tmp
+**/build/
+**/out/
+.gradle
